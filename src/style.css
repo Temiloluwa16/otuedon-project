@@ -85,4 +85,5 @@
     padding-top: 128px;
     padding-bottom: 64px;
     display: flex;
+    flex-direction: column;
 }
