@@ -10,3 +10,21 @@
     fbq('init', '356660393505812');
     fbq('track', 'PageView');
     
+
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+                gtag('config', 'G-6VLVR41L96', {
+            custom_map: {
+                'dimension1' : 'author',
+                'dimension2' : 'pagetitle',
+                'dimension3' : 'publishdate'
+                // 'dimension4' : 'online'
+            }
+        });
+                    // Google analytics 4
+            gtag('config', 'G-6VLVR41L96');
+            
