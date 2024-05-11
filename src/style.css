@@ -86,4 +86,31 @@
     padding-bottom: 64px;
     display: flex;
     flex-direction: column;
+    background-image: url('/assets/hero-leg.png'), url('assets/hero-bg.png');
+}
+
+.hero-section {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    gap: 62px;
+    padding: 0px 16px;
+}
+
+.hero-section-details {
+    width: 100%;
+}
+.hero-section-details h1 {
+    font-family: sans-serif;
+    color: #fffcc6;
+    font-size: 58px;
+    line-height: 72px;
+    text-shadow: 0 -1px 4px #FFFCC6, 0 -2px 10px #FFFCC6, 0 -10px 20px #FFFCC6, 0 -18px 40px #FFFCC6;
+
+}
+.hero-section-details p {
+    font-size: 16px;
 }
