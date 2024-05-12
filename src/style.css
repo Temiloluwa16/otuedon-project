@@ -342,11 +342,11 @@ img.section-absolute {
     margin: 0 auto;
 }
 
-.section-absolute {
-    position: absolute;
-    top: -150px;
-    right: 0px;
-    width: 200px; 
+.activity{
+   text-align: center;
+   font-size: 1.5rem;
+   color: white;
+
 }
 
 .tickets-section-container {
@@ -378,4 +378,10 @@ img.section-absolute {
     font-size: 3rem;
     font-family: "Qlassy", serif;
     text-transform: capitalize;
+}
+
+img.section-absolute {
+    
+    top: -150px;
+    width: 200px;
 }
