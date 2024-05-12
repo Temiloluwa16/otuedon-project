@@ -279,3 +279,103 @@ img.section-absolute {
     z-index: 60;
     width: 212px;
 }
+
+.event-details-container {
+    position: static;
+    width: 90%;
+    display: flex;
+    order: 1;
+    justify-content: center;
+}
+
+.event-details {
+    width: 100%;
+    height: 100%;
+    background-color: #fffcc6;
+    padding: 9px;
+    max-width: 300px;
+    margin-top: -30px;
+    z-index: 30;
+}
+
+.event-details-text-container {
+    height: 87px;
+    width: 100%;
+    border: 4px dashed #f8570d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-details-text {
+    background-color: #f8570d;
+    height: 100%;
+    width: 100%;
+    color: white;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "League Spartan", sans-serif;
+}
+.event-details-text p:first-of-type {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.whattoexpect-section-container {
+    background-color: #ff4f44;
+
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 64px 16px;
+}
+
+.whattoexpect-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.section-absolute {
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    width: 200px; 
+}
+
+.tickets-section-container {
+    position: relative;
+    background-color: #ff4164;
+    background-image: url(../assets/tickets-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    padding: 24px;
+}
+
+.tickets {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tickets-container h2 {
+    font-size: 3rem;
+    font-family: "Qlassy", serif;
+    text-transform: capitalize;
+}
