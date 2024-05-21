@@ -27,7 +27,8 @@ link-content-container {
 .link-container{
     display: flex;
     align-items: center;
-    
+    list-style: none;
+    gap: 20px;
 }
 
 a {
@@ -37,4 +38,47 @@ a {
     white-space: nowrap;
     color: #fffcc6;
     text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 24px;
+}
+.button-container img {
+    width: 16px;
+    height: 16px;
+}
+
+.sponsor-hertitude-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    gap: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: capitalize;
+    font-size: "League Spartan", sans-serif;
+    transition: all ease-in-out  0.4s;
+}
+
+.purple-btn {
+    color: #fffcc6;
+    background-color: #772f90;
+    border-radius: 4px;
+    height: 48px;
+}
+
+@media (min-width: 680px) {
+    .purple-btn {
+        width: max-content;
+        padding: 0px 32px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 640px) {
+    mobile.display {
+       display: mone !important;
+    }
 }
