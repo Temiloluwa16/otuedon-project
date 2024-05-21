@@ -82,3 +82,84 @@ a {
        display: mone !important;
     }
 }
+
+@media (min-width: 640px) {
+    .section-1-container {
+        min-height: 120vh;
+        padding-bottom: 0px;
+        justify-content: center;
+        background-size: 70%, cover;
+    }
+}
+
+@media (min-height: 600px) and (max-height: 800px) {
+    .section-1-container {
+        padding-bottom: 300px !important;
+    }
+}
+
+.section-1 {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+    padding: 0px 16px;
+}
+
+.section-1-details {
+    @media (min-width: 640px)  {
+      .section-1-details {
+        max-width: 654px;
+      }
+    } 
+
+    .section-1-details {
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px) {
+    .section-1-details h1 {
+        font-size: 7.5rem;
+        line-height: 130px;
+    }
+}
+.section-1-details h1 {
+    font-family: "Qlassy", serif;
+    color: #fffcc6;
+    text-shadow: 0 -1px 4px #fffcc6, 0 -2px 10px #fffcc6, 0 -10px 20px #fffcc6, 0 -18px 40px #fffcc6
+}
+.subsection-1 img {
+    width: 24px;
+    margin-top: -5px;
+}
+
+@media (min-width: 640px) {
+    .section-1-details p {
+        font-size: 1.5rem;
+        line-height: 36px;
+    }
+}
+
+.section-1-details p {
+    color: #fffcc6;
+    display:inline-block;
+    margin-top: 24px;
+    max-width: 451px;
+    font-family: "League Spartan", sans-serif;
+}
+
+@media (min-width: 640px) {
+    .section-1 .subsection-1 {
+        flex-direction: row;
+    }
+}
+
+.subsection-1 {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
