@@ -163,3 +163,21 @@ a {
     display: flex;
     gap: 24px;
 }
+
+@media (min-width: 640px) {
+    .section-2-container {
+        padding: 100px 0px 0px 0px;
+    }
+}
+
+.section-2-container {
+    position: relative;
+    background-color: #a83eca;
+    background-image: url("/assets/sponsors-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
