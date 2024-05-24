@@ -7,6 +7,7 @@
     backdrop-filter: blur(10px);
 }
 
+
 .nav-section {
     display: flex;
     align-items: center;
@@ -98,6 +99,16 @@ a {
     }
 }
 
+.section-1-container{
+    position: relative;
+    background-color: #ff4f44;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/hero-leg.png"), url("/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right, top;
+}
+
 .section-1 {
     max-width: 1240px;
     margin: 0 auto;
@@ -180,6 +191,66 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 640px) {
+    .subsection-2{
+        width: 320px;
+        height: 320px;
+        top: -150px;
+        left: 0px;
+    }
+}
+
+.subsection-2 {
+    position: absolute;
+    z-index: 60;
+}
+
+@media (min-width: 640px) {
+    .event-details-container {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+.event-details-container {
+    top: 0px;
+    display: flex;
+    order: 1;
+    justify-content: center;
+}
+
+@media (min-width: 640px) {
+    .event-details {
+        max-width: 637px;
+        padding: 16px;
+    }
+}
+
+.event-details {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+    z-index: 30;
+}
+
+@media (min-width: 640px) {
+    .event-details-text-container {
+        border: 8px dashed #f8570d;
+        height: 138px;
+    }
+}
+.event-details-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-details-text {
+    background-color: #f8570d;
+    flex-direction: column;
+    text-align: center;
 }
 @media (min-width: 640px) {
     .sponsors-container {
@@ -371,4 +442,39 @@ img {
 }
 .sponsors a:not(hover) {
     transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 640px) {
+    .section-3-container {
+        padding: 140px 32px;
+    }
+}
+
+.section-3-container {
+    background-color: #ff4f44;
+    background-image: url("/assets/what-to-expect.png");
+    background-repeat: no repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.whattoexpect-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+    .whattoexpect-container h2 {
+        font-size: 5rem;
+    }
+}
+
+.whattoexpect-container h2 {
+    font-family: "Qlassy", serif;
+    color: #fff;
+    text-align: center;
 }
